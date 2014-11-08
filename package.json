@@ -1,0 +1,46 @@
+{
+  "name": "tools-versions",
+  "version": "0.0.0",
+  "main": "lib/tools-versions.js",
+  "description": "Check versoins of fe tools",
+  
+      "homepage": "https://github.com/easingthemes/toolsv",
+    
+    "bugs": "https://github.com/easingthemes/tools-versions/issues",
+  "author": {
+    "name": "Dragan Filipovic",
+    "email": "info@frontenddot.com"  ,
+        "url": "http://frontenddot.com" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easingthemes/tools-versions"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "tools-versions"  ,
+        "tools"  ,
+        " versions" 
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"  ,
+        "browserify": "^4.1.3" 
+  },
+  "scripts": {
+    "test": "grunt"  ,
+        "browser": "browserify lib/tools-versions.js > browser.js" 
+  },
+  "bin": {
+      "tools-v": "lib/tools-versions.js"
+  },
+  "preferGlobal": "true" 
+}
