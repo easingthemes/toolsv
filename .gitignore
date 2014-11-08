@@ -1,2 +1,9 @@
 /node_modules/
 npm-debug.log
+.jshintrc
+.travis.yml
+.yo-rc.json
+cli.js
+Gruntfile.js
+/test
+/example

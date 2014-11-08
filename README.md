@@ -5,43 +5,20 @@
 
 ## Getting Started
 
-Install the module with: `npm install tools-versions`
-
-```js
-var tools-versions = require('tools-versions');
-tools-versions.awesome(); // "awesome"
-```
-
 Install with cli command
 
 ```sh
 $ npm install -g tools-versions
-$ tools-versions --help
-$ tools-versions --version
+$ tools-v
 ```
-
-
-```sh
-# creates a browser.js
-$ grunt browserify
-```
-
-
 
 ## Documentation
 
 _(Coming soon)_
 
-
 ## Examples
 
 _(Coming soon)_
-
-
-## Contributing
-
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com).
-
 
 ## License
 
